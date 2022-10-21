@@ -13,9 +13,12 @@ button.addEventListener("click", function() {
         alert("Please enter a question!");
       } else {
         eight.innerText = '';
-        var num = input.value.length % options.length;
+        let num = Math.floor(Math.random()* options.length);
+
+        //var num = input.value.length % options.length;
         answer.innerText = options[num];
       }
     });
 
-    
+    // let num = Math.floor(Math.random()* options.length);
+    // options.classList.add(options[Num]);
