@@ -14,25 +14,21 @@ button.addEventListener("click", function() {
     if (input.value.length < 1) {
         alert("Please enter a question!");
          } 
-         
-         else
+        
+         else {
+            eight.innerHTML = '';
+            answer.innerHTML = 'Searching the Cosmos, stand by!'
+            setTimeout(hold,  3000);
             
+          }
 
-
-        //  (input.value.length > 2);
-        //   {
-        //   eight.innerHTML = '';
-        //   answer.innerHTML = ('Scanning the Cosmo, Please stand by!!');
-          
-        //  }
-
-     
-         {
-          eight.innerHTML = '';         
+                 
+        function hold(){
+        eight.innerHTML = '';         
         let num = Math.floor(Math.random()* options.length);       
         answer.innerHTML = options[num];       
         setTimeout(timeUp, 3000);
-         }
+        }
          
          function timeUp(){
           document.getElementById("input").value='';
@@ -41,7 +37,7 @@ button.addEventListener("click", function() {
             }
               
          }
-       
+        
       );
     
     
