@@ -16,32 +16,36 @@
 </head>
 <body>
 
-    <div class="container">
+    <div class="container border border-5 pb-5 mb-4">
         <div class= "row justify-content-center">
-            <div class="col-md-6 text-center border border-2 mt-4 mb-4 pb-3">
-                <h1 "display-1" >Magic 8 Ball</h1>
+            <div class="ansbox col-md-6 text-center mt-4 mb-4 pb-3">
+                <h1>Magic 8 Ball</h1>
                 <p>What be your question:</p>
-                <input type="text" id="input" />
+                <input type="text" id="input"/>
             </div>
         </div>
 
 
-        <div class="eight-ball text-center border border-2">
-            <div class="row justify-content-center answer text-center">
-                <div class="text-center">
+        <div class="eight-ball text-center">
+            <div class="answer justify-content-center text-center">
+                
                     <p id="eight">8</p>
                     <p id="answer"></p>                    
-                </div>
+                                
             </div>
 
-            <button id="button">Click me for answer</button>
+            <button id="button">Click for your answer</button>
         </div>
         
-           
+          
     </div>
 
-
-
+    <div class="container p-5">
+        <div class="footer1 col-4 p-4 text-dark text-center">
+            &copy; </em>2022 Coombs Creations
+        </div>
+      </div>
+    
 
     <script src="js/script.js"></script>
 </body>

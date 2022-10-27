@@ -15,18 +15,15 @@ button.addEventListener("click", function() {
         alert("Please enter a question!");
          } 
          
-         else
-            
+         else (input.value.length > 2); {
+          eight.innerHTML = '';
+          answer.innerHTML = ('Scanning the Cosmo, Please stand by!!');
+          wait = setTimeout(3000);
+          clearTimeout(wait);
+         }
 
-
-        //  (input.value.length > 2);
-        //   {
-        //   eight.innerHTML = '';
-        //   answer.innerHTML = ('Scanning the Cosmo, Please stand by!!');
-          
-        //  }
-
-     
+        //  else
+        //  function hold()
          {
           eight.innerHTML = '';         
         let num = Math.floor(Math.random()* options.length);       
@@ -43,6 +40,32 @@ button.addEventListener("click", function() {
          }
        
       );
+
+
+
+
+      //    else  {
+      //   eight.innerHTML = '';         
+      //   let num = Math.floor(Math.random()* options.length);       
+      //   answer.innerHTML = options[num];       
+      //   setTimeout(timeUp, 3000);
+                
+      // }
+
+
+      // setTimeout(() => {
+      //   alert('Scanning the Cosmo, Please stand by!!');
+      // }, 2000); { clearTimeout (time)}
+
+
+
+      // setTimeout(ansWait, 4000);
+      // function ansWait(){
+      //   alert('Scanning the Cosmo, Please stand by!!');
+        
+      // }
+      
+      
     
     
 
