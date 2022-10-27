@@ -12,59 +12,80 @@
   }
   
   .eight-ball {
-    background-color: black;
+    background-image: url("../img/were\ all\ amd.webp");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+
+    /* background-color: black;
     border: 1px solid black;
     border-radius: 50%;
     width: 300px;
     height: 300px;
-    margin: 0 auto;
+    margin: 0 auto; */
   }
   
   .answer {
-    background-color: #333;
-    border: 1px solid #333;
+    /* background-color: #333; */
+    /* border: 1px solid #333; */
     border-radius: 50%;
     width: 50%;
     height: 50%;
-    margin: 25% auto;
+    /* margin: 5% auto; */
+    padding-top: 200px;
   }
 
   #eight {
     font-size: 5em;
-    margin: 10% auto;
-    color: yellow;
+    margin: 150px;
+    color: rgb(255, 30, 30);
   }
   
   #answer {
     padding: 20px;
-    margin-top: 20px auto;
-    color: #B3F71B;
+    margin-top: 5px auto;
+    color: rgb(255, 30, 30);
     letter-spacing: 2px;
+    font-size: x-large;
   }
 
-  .ansbox {
+  .quesbox {
     border-radius: 10px;
     border: 5px solid #1b2af7
   
   }
   
-  button, input {
-    margin: 20px;
-    padding: 10px;
-    border: 3px solid #C936FF;
-    border-radius: 10px;
-    cursor: pointer;
+input {
+  margin: 20px;
+  padding: 10px;
+  border: 3px solid #C936FF;
+  border-radius: 10px;
+  cursor: pointer;
    
   }
+
+button {
+  margin-top: 100px;
+  padding: 10px;
+  border: 3px solid #C936FF;
+  border-radius: 10px;
+  cursor: pointer;
+ 
+}
+
 input[type=text] {background-color:rgb(179, 247, 27, 0.2);
 color: black;
 
 }
 
-
   #button {
   border-radius: 10px;
-  margin: 20px;
+  margin: 240px;
+  
 }
    
   button:hover {
@@ -75,25 +96,11 @@ color: black;
   }
   
   .footer1 {
-margin: 50px 0px 0px 5px;
+margin: 10px 0px 0px 5px;
   }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-  /* font-size: 1.2em;
-    font-family: 'Helvetica Neue', arial;
-    font-weight: 100;
-    letter-spacing: 2px;
-    transition: .5s font-size; */
+  
